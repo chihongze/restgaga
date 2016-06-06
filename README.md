@@ -28,7 +28,7 @@ build/install/restgaga/bin/restgaga -v
 
 可以将`build/install/restgaga/bin/`加入到PATH中，方便运行。
 
-这里提供了一个完整的测试工程例子：[restgaga-example]()，Clone到本地后，在当前目录运行:
+这里提供了一个完整的测试工程例子：[restgaga-example](https://github.com/chihongze/restgaga-example)，Clone到本地后，在当前目录运行:
 
 ```
 restgaga -m 8080
@@ -494,7 +494,7 @@ RESTGaga默认实现了一个文本类型的reportAction: chihz.restgaga.report.
 
 restgaga是以测试工程目录为目标进行加载的，会加载测试工程目录下的所有groovy文件，并解析其中包含的DSL元素到容器中，然后再依据要运行的测试目标，从容器中取出需要的元素数据执行。
 
-restgaga对测试工程的目录结构没有任何要求，你可以把所有的测试代码都写在目录中的一个文件，也可以将其分散到多个文件中，为了方便维护和查找方便，建议分散到多个目录和文件中，每个api都拥有一个自己的目录，api和mock的声明放在一个文件中，不同环境的测试用例放在不同的环境中，就如[restgaga-example]()这样的结构。
+restgaga对测试工程的目录结构没有任何要求，你可以把所有的测试代码都写在目录中的一个文件，也可以将其分散到多个文件中，为了方便维护和查找方便，建议分散到多个目录和文件中，每个api都拥有一个自己的目录，api和mock的声明放在一个文件中，不同环境的测试用例放在不同的环境中，就如[restgaga-example](https://github.com/chihongze/restgaga-example)这样的结构。
 
 文件命名规则
 
