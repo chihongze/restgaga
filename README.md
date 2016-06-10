@@ -1,5 +1,7 @@
 # RESTGaga
 
+![Lady Java](lady_java.jpg)
+
 ## 简介
 
 RESTGaga是一个用于针对RESTFul接口进行单元/集成测试的框架。核心特色如下：
